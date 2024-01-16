@@ -6,7 +6,7 @@ npx nuxi init nuxt-daisyui
 
 ```
 
-## Add Tailwind with (color-mode, daisyui and )
+## Add Tailwind with (color-mode, daisyui and nuxt-headless)
 ```bash
 yarn add -D @nuxtjs/tailwindcss @nuxtjs/color-mode @tailwindcss/forms @tailwindcss/typography tailwindcss-debug-screens daisyui nuxt-headlessui
 
