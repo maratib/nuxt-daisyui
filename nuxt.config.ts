@@ -12,7 +12,9 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
+
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "nuxt-headlessui"],
+
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.ts',
@@ -31,6 +33,9 @@ export default defineNuxtConfig({
     classPrefix: '',
     classSuffix: '',
     storageKey: 'nuxt-color-mode'
+  },
+  headlessui: {
+    prefix: 'H'
   },
 
   plugins: [

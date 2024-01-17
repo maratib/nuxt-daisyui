@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="hero min-h-screen bg-base-200">
+    <div class="hero">
       <div class="hero-content text-center">
         <div class="max-w-xl">
           <h1 data-aos="fade-down">Nuxtwind Daisy</h1>
